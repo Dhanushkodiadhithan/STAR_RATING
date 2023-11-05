@@ -31,20 +31,6 @@ const App = () => {
                 >&#9733;</span>
             )
         }
-        <h2>RATING WITH HALF STARS</h2>
-        {
-            [1,2,3,4,5].map((star)=>
-                <span
-                    key={star}
-                    className={
-                        rate2>star? "star filled":(rate2===star?(value<=100?"star half":"star filled"):"star")
-                    }
-                    onClick={()=>{handlehalf(star)}}
-                >
-                    &#9733;
-                </span>
-            )
-        }
         </>
     )
 }
